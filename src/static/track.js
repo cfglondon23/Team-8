@@ -49,10 +49,24 @@
 //  }
 
 function getOption() {
-  selectElement = document.querySelector('#city');
-  output = selectElement.value;
-  console.log(output);
+
+  var city = document.getElementById("city").value;
+
+  // Update the image src attributes based on the selected city
+  document.getElementById("image1").src = "/static/css/images/" + city + "1.jpg";
+  document.getElementById("image2").src = "/static/css/images/" + city + "2.jpg";
+  document.getElementById("image3").src = "/static/css/images/" + city + "3.jpg";
+  document.getElementById("image4").src = "/static/css/images/" + city + "4.jpg";
+  document.getElementById("image5").src = "/static/css/images/" + city + "5.jpg";
+  document.getElementById("image6").src = "/static/css/images/" + city + "2.jpg";
+  document.getElementById("image7").src = "/static/css/images/" + city + "3.jpg";
+  document.getElementById("image8").src = "/static/css/images/" + city + "4.jpg";
+  document.getElementById("image9").src = "/static/css/images/" + city + "5.jpg";
+
+  
 }
+
+
 //  $("button").click(function(){
 //   $.post("track.html",
 //   {
