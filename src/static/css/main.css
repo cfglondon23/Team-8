@@ -54,7 +54,6 @@ li {
 }
 
 .donate {
-<<<<<<< HEAD
   margin-top: 20px;
   margin-left: 20px;
   font-family: Helvetica;
@@ -147,21 +146,3 @@ footer {
   margin-top: 15px;
   color: white;
 }
-=======
-    margin-top: 20px;
-    font-family: Helvetica;
-    font-size: 20px;
-    background-color: rgba(0, 177, 106);
-    border: rgba(0, 177, 106);
-    color: white;
-    border-radius: 40px;
-  }
-  
-.donate:hover{
-    background-color: black;
-    transition-duration: 0.25s;
-    border: black;
-  }
-
-  
->>>>>>> login
