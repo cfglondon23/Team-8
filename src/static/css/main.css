@@ -72,7 +72,7 @@ li {
 }
 
 .container {
-  min-height: 150vh;
+  min-height: 250vh;
   padding: 5%;
 }
 
@@ -96,7 +96,6 @@ li {
 }
 
 .custom-selector::after {
-  content: '';
   border-width: 5px;
   border-style: solid;
   border-color: transparent;
@@ -108,10 +107,15 @@ li {
   border-radius: 2px;
 
 }
+
+.divider {
+  height: 40px;
+}
+
 /* FOOTER */
 
 footer {
-  margin-top: 50%;
+  margin-top: 75%;
   background-color: rgba(0, 177, 106);
   height: 100px;
 }
