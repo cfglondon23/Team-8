@@ -9,3 +9,7 @@ nav a {
     text-decoration: none;
     display: inline;
   }
+
+li {
+    display: inline;
+}
