@@ -1,2 +1,2 @@
-import src.stats as stats
+import src.stats as st
 
