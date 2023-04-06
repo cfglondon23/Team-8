@@ -53,22 +53,79 @@ li {
     text-align: center;
 }
 
-#buttons {
-  display: flex;
-}
-
 .donate {
     margin-top: 20px;
+    margin-left: 20px;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 17.5px;
     background-color: rgba(0, 177, 106);
     border: rgba(0, 177, 106);
     color: white;
     border-radius: 40px;
+    padding: 10px;
   }
   
 .donate:hover{
     background-color: black;
     transition-duration: 0.25s;
     border: black;
+  }
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+}
+
+.custom-selector{
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  color:rgba(0, 177, 106);
+}
+
+.custom-selector select {
+  width: 200px;
+  min-height: 35px;
+  background: rgba(0, 177, 106);
+  border-radius: 3px;
+  border: 2px solid #2196f3;
+  outline: none;
+}
+/* FOOTER */
+
+footer {
+  margin-top: 7%;
+  background-color: rgba(0, 177, 106);;
+  height: 100px;
+}
+
+.spacer {
+  height: 15px;
+}
+
+.footer_row {
+  margin-left: 68%;
+  margin-right: 5%;
+  display: flex;
+}
+
+  .footer_column {
+    flex: 20%;
+    margin-top: 15px;
+  }
+
+  .footer_column a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer_column a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .footer_column p {
+    margin-top: 15px;
+    color: white;
   }
