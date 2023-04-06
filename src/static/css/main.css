@@ -39,6 +39,10 @@ li {
     font-size: 30px;
 }
 
+#carousel {
+    margin: 0 auto;
+}
+
 #div_titletext {
     margin-left: 75px;
     width: 1300px;
