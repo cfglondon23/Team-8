@@ -35,8 +35,11 @@ def ratings():
 def track():
     if request.method == "POST":
         data = request.data
-        values = stats.get_useful_scores(data)
-        return render_template('track.html', values)
+        data_edit = data.decode('ascii')
+        data_edt = data_edit[5:]
+        values = stats.get_useful_scores(data_edt)
+        return values
+
     return render_template('track.html')
 
 

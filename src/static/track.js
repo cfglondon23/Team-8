@@ -48,11 +48,23 @@
 //     }
 //  }
 
-function getOption() {
-  selectElement = document.querySelector('#city');
-  output = selectElement.value;
-  console.log(output);
+
+function getChoice(){
+$.ajax({
+  type: "POST",
+  url: "/track.html",
+  data: {city : document.querySelector('#city').value},
+  contentType: "application/json",
+  dataType: 'json',
+  success: function(data){
+    console.log(data)
+  }
+});
+
 }
+  
+
+  
 //  $("button").click(function(){
 //   $.post("track.html",
 //   {
