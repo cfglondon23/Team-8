@@ -71,3 +71,6 @@ def get_area_scores(ua_endpoint):
         return result
     except:
         return 'not_found'
+
+cityName = 'Belarus'
+results = get_teleport_data(cityName)
