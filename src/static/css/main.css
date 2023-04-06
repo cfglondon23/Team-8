@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+
+/* NAV BAR */
+
+nav {
+    background-color: rgba(0, 177, 106);
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 10px;
+  }
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 10px;
+    transition-duration: 0.25s;
+  }
+  
+li {
+    display: inline;
+    padding: 10.5px;
+  }
+    
+#title {
+    color: rgba(0, 177, 106);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#carousel {
+    margin: 0 auto;
+}
+
+#div_titletext {
+    margin-left: 75px;
+    width: 1300px;
+}
+
+#div_titletext p {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#buttons {
+  display: flex;
+}
+
+.donate {
+    margin-top: 20px;
+    font-family: Helvetica;
+    font-size: 20px;
+    background-color: rgba(0, 177, 106);
+    border: rgba(0, 177, 106);
+    color: white;
+    border-radius: 40px;
+  }
+  
+.donate:hover{
+    background-color: black;
+    transition-duration: 0.25s;
+    border: black;
+  }
