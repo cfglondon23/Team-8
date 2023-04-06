@@ -58,14 +58,13 @@ function getOption() {
   document.getElementById("image3").src = "/static/css/images/" + city + "3.jpg";
   document.getElementById("image4").src = "/static/css/images/" + city + "4.jpg";
   document.getElementById("image5").src = "/static/css/images/" + city + "5.jpg";
-  document.getElementById("image6").src = "/static/css/images/" + city + "2.jpg";
-  document.getElementById("image7").src = "/static/css/images/" + city + "3.jpg";
-  document.getElementById("image8").src = "/static/css/images/" + city + "4.jpg";
-  document.getElementById("image9").src = "/static/css/images/" + city + "5.jpg";
+  document.getElementById("image6").src = "/static/css/images/" + city + "6.jpg";
+  document.getElementById("image7").src = "/static/css/images/" + city + "7.jpg";
+  document.getElementById("image8").src = "/static/css/images/" + city + "8.jpg";
+  document.getElementById("image9").src = "/static/css/images/" + city + "9.jpg";
 
-  
+  document.getElementById("text1") = "Housing";
 }
-
 
 //  $("button").click(function(){
 //   $.post("track.html",
