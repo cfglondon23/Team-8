@@ -5,6 +5,7 @@ instance/*
 .env
 .idea/
 .venv/
+.vscode/
 
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
