@@ -72,3 +72,25 @@ li {
     transition-duration: 0.25s;
     border: black;
   }
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+}
+
+.custom-selector{
+  position: relative;
+  display: inline-block;
+  font-size: 25px;
+  color:rgba(0, 177, 106);
+}
+
+.custom-selector select {
+  width: 200px;
+  min-height: 35px;
+  background: rgba(0, 177, 106);
+  border-radius: 3px;
+  border: 2px solid #2196f3;
+  outline: none;
+}
