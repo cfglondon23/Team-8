@@ -14,3 +14,7 @@ li {
     display: inline;
     padding: 10px;
 }
+
+body {
+    margin: 0px;
+}
