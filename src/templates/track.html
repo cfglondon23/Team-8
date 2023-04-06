@@ -25,6 +25,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="/static/track.js"></script>
     <style>
       /* style the container for the charts */
       .chart-container {
@@ -49,7 +50,7 @@
     <div class="custom-selector">
       <label> Choose a city: </label>
 
-      <select name="cities">
+      <select id="city">
         <option value="london">London</option>
         <option value="new_york">New York</option>
         <option value="tokyo">Tokyo</option>
@@ -62,6 +63,10 @@
         <option value="seoul">Seoul</option>
       </select>
     </div>
+
+    <button onclick="getOption()"> Check option </button>
+      
+    
 
   <div id="chart-grid">
       <div class="chart-container">
