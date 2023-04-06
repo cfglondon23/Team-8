@@ -2,6 +2,33 @@ body {
     margin: 0px;
 }
 
+/* NAV BAR */
+
+nav {
+    background-color: rgba(0, 177, 106);
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 10px;
+  }
+  
+  li {
+    display: inline;
+    padding: 10.5px;
+  }
+  
+  li:hover {
+    display: inline;
+    background-color: black;
+    transition-duration: 0.25s;
+  }  
+
 #title {
     color: rgba(0, 177, 106);
     margin-top: 50px;
