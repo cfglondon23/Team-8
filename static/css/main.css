@@ -3,6 +3,7 @@ body {
 }
 
 #title {
+    color: rgba(0, 177, 106);
     margin-top: 50px;
     text-align: center;
     font-size: 30px;
@@ -26,11 +27,14 @@ body {
     margin-top: 20px;
     font-family: Helvetica;
     font-size: 20px;
-    background-color: darkgreen;
+    background-color: rgba(0, 177, 106);
+    border: rgba(0, 177, 106);
     color: white;
+    border-radius: 40px;
   }
   
 #donate:hover{
     background-color: black;
     transition-duration: 0.25s;
+    border: black;
   }
