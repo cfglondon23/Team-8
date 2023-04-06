@@ -7,6 +7,10 @@ body {
     font-size: 30px;
 }
 
-#title_text {
+#div_titletext {
+    margin-left: 50px;
+}
+
+#div_titletext p {
     text-align: center;
 }
