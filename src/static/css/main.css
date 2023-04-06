@@ -71,7 +71,7 @@ li {
     border: black;
   }
 
-.container{
+.city_container{
   width: 100%;
   min-height: 100vh;
   padding: 5%;
@@ -92,6 +92,7 @@ li {
   border: 2px solid #2196f3;
   outline: none;
 }
+
 /* FOOTER */
 
 footer {
