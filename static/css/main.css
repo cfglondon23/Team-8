@@ -1,3 +1,8 @@
+/* NAV BAR */
+
 nav {
+    background-color: darkgreen;
     text-align: center;
-}
+    list-style: none;
+    padding: 10px;
+  }
