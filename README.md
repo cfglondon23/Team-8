@@ -10,7 +10,7 @@ https://trello.com/invite/team8650/ATTI207152bd69a4034ebde377ce5c772b50DF1DCB73
 c4g.bemyapp.com
 
 # Requirements
---> Scrape data to create sustainability reports by city
---> Login and Sign- Up function
---> Comment section (permissions- user only)
---> City ranking 
+--> Scrape data to create sustainability reports by city__
+--> Login and Sign- Up function__
+--> Comment section (permissions- user only)__
+--> City ranking__
