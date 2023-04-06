@@ -9,6 +9,7 @@ nav {
     text-align: center;
     list-style: none;
     padding: 10px;
+    margin-bottom: 100px;
   }
   
 nav a {
@@ -43,8 +44,8 @@ li {
 }
 
 #div_titletext {
-    margin-left: 50px;
-    width: 1350px;
+    margin-left: 75px;
+    width: 1300px;
 }
 
 #div_titletext p {
