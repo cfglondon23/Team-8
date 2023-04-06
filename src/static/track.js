@@ -1,3 +1,5 @@
+import Chart from 'chart.js/auto'
+
 function processDictionary(usefulScores) {
 
   const colourSchemes = [[
@@ -37,10 +39,11 @@ function processDictionary(usefulScores) {
     ],
     datasets: [{
       label: key,
-      data: [usefulScores[key], 100 - usefulScores[key]],
+      data: [usefulScores[key] * 10, 100 - (usefulScores[key] * 10)],
       backgroundColor: colourSchemes[i]
       hoverOffset: 4
     }]
+    new Chart(document.getElementById('chart' + i), config)
     };
     }
  }
