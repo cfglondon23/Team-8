@@ -18,6 +18,7 @@ def login():
         user = User(username='username', password='password')
         db.add(user)
         db.commit()
+        db.close()
     
     return render_template('login.html')
 
