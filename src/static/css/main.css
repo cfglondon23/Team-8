@@ -17,17 +17,20 @@ nav a {
     display: inline;
     padding: 10px;
   }
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 10px;
+    transition-duration: 0.25s;
+  }
   
 li {
     display: inline;
     padding: 10.5px;
   }
-  
-li:hover {
-    display: inline;
-    transition-duration: 0.25s;
-  }  
-
+    
 #title {
     color: rgba(0, 177, 106);
     margin-top: 50px;
