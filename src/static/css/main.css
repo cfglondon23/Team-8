@@ -72,12 +72,12 @@ li {
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
+  min-height: 150vh;
   padding: 5%;
 }
 
 .custom-selector {
+  margin-left: 100px;
   position: relative;
   display: inline-block;
   font-size: 20px;
@@ -90,7 +90,6 @@ li {
   border: 2px solid rgba(0, 177, 106);
   outline: none;
   padding: 0 10px;
-  width: 100%;
   cursor: pointer;
   margin-top: 5px;
   appearance: none;
@@ -112,7 +111,7 @@ li {
 /* FOOTER */
 
 footer {
-  margin-top: 7%;
+  margin-top: 50%;
   background-color: rgba(0, 177, 106);
   height: 100px;
 }
